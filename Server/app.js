@@ -6,7 +6,7 @@ let path = require('path');
 let jsonwebtoken = require('jsonwebtoken');
 let Ad = require('./Models/Ad')
 
-mongoose.connect('mongodb+srv://admin:adminnimda@cluster0.feutn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' , (err , res)=>{
+mongoose.connect("Add MongoDb Link" , (err , res)=>{
 
 console.log(err || res)
 

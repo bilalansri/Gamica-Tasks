@@ -1,0 +1,39 @@
+#container{
+    position: relative;
+    margin: auto;
+    width: 60vh;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.flex{
+    display: flex;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.addiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notlike{
+    border: none;
+    background-color: transparent;
+    color: rgb(180, 180, 180);
+    font-size: 40px;
+}
+
+.liked{
+    color: red;
+    border: none;
+    background-color: transparent;
+    font-size: 40px;
+}
+
+.card{
+    width: 500px;
+    margin: 50px;
+}
